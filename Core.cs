@@ -136,10 +136,10 @@ internal static class Core
     static HashSet<Profession> _disabledProfessions = [];
 
     const int SECONDARY_SKILL_SLOT = 4;
-    const int BLEED_STACKS = 3;
-    const float NIGHTMARE_HEALTH_MULTIPLIER = 5f;
-    const float NIGHTMARE_POWER_MULTIPLIER = 1.5f;
-    const float NIGHTMARE_MOVE_SPEED_MULTIPLIER = 1.25f;
+    const int BLEED_STACKS = 0;
+    const float NIGHTMARE_HEALTH_MULTIPLIER = 1.5f;
+    const float NIGHTMARE_POWER_MULTIPLIER = 1.2f;
+    const float NIGHTMARE_MOVE_SPEED_MULTIPLIER = 1.0f;
 
     public static byte[] NEW_SHARED_KEY { get; set; }
 

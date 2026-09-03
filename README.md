@@ -485,6 +485,8 @@ Jairon O.; Odjit; Jera; Kokuren TCG and Gaming Shop; Rexxn; Eduardo G.; DirtyMik
   The language localization for prefabs displayed to users. English by default. Options: Brazilian, English, French, German, Hungarian, Italian, Japanese, Koreana, Latam, Polish, Russian, SimplifiedChinese, Spanish, TraditionalChinese, Thai, Turkish, Vietnamese
 - **Eclipsed**: `Eclipsed` (bool, default: False)
   Eclipse will be active if any features that sync with the client are enabled. Instead, this now controls the frequency; true for faster (0.1s), false for slower (2.5s).
+- **Use Emberglass Eclipse Bridge**: `UseEmberglassEclipseBridge` (bool, default: False)
+  Use Emberglass for the Bloodcraft/Eclipse bridge when Emberglass is installed. Falls back to the legacy chat bridge when disabled or unavailable.
 - **Elite Primal Rifts**: `ElitePrimalRifts` (bool, default: False)
   Enable or disable elite primal rifts.
 - **Rift Frequency**: `RiftFrequency` (int, default: 0)
